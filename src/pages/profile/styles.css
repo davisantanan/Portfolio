@@ -1,0 +1,27 @@
+.content-container {
+    height: 100vh;
+    background-color: #333;
+}
+
+.profile-container {
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/lua.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 1375px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;
+    }
+}

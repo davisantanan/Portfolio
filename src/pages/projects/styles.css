@@ -1,0 +1,17 @@
+.content-container {
+    height: 100vh;
+    background-color: #333;
+}
+
+.project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/mohammad-rahmani-Y5yxdx2a4PI-unsplash\ \(1\).png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
