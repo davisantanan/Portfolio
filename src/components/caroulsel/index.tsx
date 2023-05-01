@@ -45,7 +45,7 @@ const sliderImage = [
         title: 'Youtube-Clone | Sign-in/Sign-up Feature',
         image: Youtube,
         icon: [GitHubIcon, DeployIcon],
-        url: [['https://github.com/davisantanan/Clone-Youtube-Incompleto', 'https://github.com/davisantanan/api-yt']]
+        url: ['https://github.com/davisantanan/Clone-Youtube', 'https://youtube-clonets.netlify.app']
     },
 ]
 
@@ -74,7 +74,7 @@ function Caroulsel(){
                         <div className='tec-container'>
                             {slide.icon.length > 1 ?
                             <>
-                                <a target='_blank _blank' rel='noreferrer' href={slide.url[0]}>
+                                <a target='_blank' rel='noreferrer' href={slide.url[0]}>
                                     <div className='icon-container'>
                                         <img className='icon' src={slide.icon[0]} alt=''/>
                                     </div>
