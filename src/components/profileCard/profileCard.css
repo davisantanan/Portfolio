@@ -114,7 +114,6 @@ box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
     width: 25%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    
 }
 
 .profile-sinopse{
@@ -197,5 +196,18 @@ box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
     .profile-sinopse {
         font-size: 15px;
         width: 100%;
+    }
+}
+
+@media(max-width: 328px) {
+    
+    .profile-card {
+        height: 70%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sinopse-container {
+        margin-top: -20%;
     }
 }
