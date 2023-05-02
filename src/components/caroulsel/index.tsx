@@ -86,9 +86,9 @@ function Caroulsel(){
                                 </a>
                             </> 
                             :
-                            <a target='_blank' rel='noreferrer' href={slide.url[0]}>
+                            <a target='_blank' rel='noreferrer' href={slide.url}>
                                 <div className='icon-container'>
-                                    <img className='icon' src={slide.icon[0]} alt=''/>
+                                    <img className='icon' src={slide.icon} alt=''/>
                                 </div>
                             </a>
                             }
