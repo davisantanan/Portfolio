@@ -42,7 +42,7 @@ const sliderImage = [
         url: ['https://github.com/davisantanan/Wakanda-Forever-React', 'https://wakanda-forever-react.vercel.app/']
     },
     {
-        title: 'Youtube-Clone | Sign-in/Sign-up Feature',
+        title: 'Youtube-Clone | API | Login Feature',
         image: Youtube,
         icon: [GitHubIcon, DeployIcon],
         url: ['https://github.com/davisantanan/Clone-Youtube', 'https://youtube-clonets.netlify.app']
