@@ -136,6 +136,13 @@ textarea::placeholder {
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
+@-moz-document url-prefix() {
+    .input-box {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
 @media(max-width: 768px) {
     .form-content {
         width: 60%;
