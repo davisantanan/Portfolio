@@ -45,7 +45,7 @@ const sliderImage = [
         title: 'Youtube-Clone | API | Login Feature',
         image: Youtube,
         icon: [GitHubIcon, DeployIcon],
-        url: ['https://github.com/davisantanan/Clone-Youtube', 'https://youtube-clonets.netlify.app']
+        url: ['https://github.com/davisantanan/Clone-Youtube', 'https://clone-youtube-pearl.vercel.app/']
     },
 ]
 
@@ -58,7 +58,8 @@ function Caroulsel(){
             setActiveIndex(activeIndex === len ? 0 : activeIndex +1);
         }, 5000);
         return() => clearInterval(interval);
-    },[activeIndex, len]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[activeIndex]);
 
 
     return(
