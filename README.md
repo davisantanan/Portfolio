@@ -8,8 +8,8 @@ Este projeto tem como objetivo ser uma vitrine de projetos, trata-se de um proje
 
 ## ✨ Funcionalidades
 
-- [x] Caroulsel slide demonstrando os projetos
-- [x] seção de contato funcional
+- [x] Carrosel slide demonstrando os projetos de forma automática
+- [x] Seção de contato funcional
 
 ## 🛠 Ferramentas
 
