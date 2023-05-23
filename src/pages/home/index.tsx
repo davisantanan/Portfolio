@@ -11,11 +11,13 @@ function Home () {
     }   
 
     return(
-        <div className="hero-container">
+        <div id='home' className="hero-container">
             <header>
                 <nav>
                     <ul>
-                        <li>Home</li>
+                        <li onClick={() => smoothScroll('#home')}>
+                            Home
+                        </li>
                         <li onClick={() => smoothScroll('#profile')}> 
                             Sobre
                         </li>
