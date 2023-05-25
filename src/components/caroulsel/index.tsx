@@ -56,11 +56,10 @@ function Caroulsel(){
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex(activeIndex === len ? 0 : activeIndex +1);
-        }, 5000);
+        }, 3000);
         return() => clearInterval(interval);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[activeIndex]);
-
 
     return(
         <div className='slider-container'>
