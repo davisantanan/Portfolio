@@ -63,39 +63,37 @@ function Caroulsel(){
 
     return(
         <div className='slider-container'>
-            <section>   
-                {sliderImage.map((slide:any, index:number) => (
-                    <div 
-                    key={index}
-                    className={`${index === activeIndex ? 'active' : 'inactive'}`}
-                    >
-                        <img className='slide-image' src={slide.image}  alt=''/>
-                        <h2 className='slide-title'>{slide.title}</h2>
-                        <div className='tec-container'>
-                            {slide.icon.length > 1 ?
-                            <>
-                                <a target='_blank' rel='noreferrer' href={slide.url[0]}>
-                                    <div className='icon-container'>
-                                        <img className='icon' src={slide.icon[0]} alt=''/>
-                                    </div>
-                                </a>
-                                <a target='_blank' rel='noreferrer' href={slide.url[1]}>
-                                    <div className='icon-container'>
-                                        <img className='icon' src={slide.icon[1]} alt=''/>
-                                    </div>
-                                </a>
-                            </> 
-                            :
-                            <a target='_blank' rel='noreferrer' href={slide.url}>
+            {sliderImage.map((slide:any, index:number) => (
+                <div 
+                key={index}
+                className={`${index === activeIndex ? 'active' : 'inactive'}`}
+                >
+                    <h2 className='slide-title'>{slide.title}</h2>
+                    <div className='tec-container'>
+                        {slide.icon.length > 1 ?
+                        <>
+                            <a target='_blank' rel='noreferrer' href={slide.url[0]}>
                                 <div className='icon-container'>
-                                    <img className='icon' src={slide.icon} alt=''/>
+                                    <img className='icon' src={slide.icon[0]} alt=''/>
                                 </div>
                             </a>
-                            }
-                        </div>
+                            <a target='_blank' rel='noreferrer' href={slide.url[1]}>
+                                <div className='icon-container'>
+                                    <img className='icon' src={slide.icon[1]} alt=''/>
+                                </div>
+                            </a>
+                        </> 
+                        :
+                        <a target='_blank' rel='noreferrer' href={slide.url}>
+                            <div className='icon-container'>
+                                <img className='icon' src={slide.icon} alt=''/>
+                            </div>
+                        </a>
+                        }
                     </div>
-                ))}
-            </section>
+                    <img className='slide-image' src={slide.image}  alt=''/>
+                </div>
+            ))}
             <div className='all-dots'>
                 {sliderImage.map((slide:any, index:number) => (
                     <span
