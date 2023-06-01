@@ -65,9 +65,9 @@
 
 .all-dots {
     width: 100%;
+    bottom: 5%;
     position: absolute;
     display: flex;
-    top: 90%;
     justify-content: center;
     z-index: 200;   
 }
