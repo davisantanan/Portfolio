@@ -3,10 +3,8 @@ import './styles.css'
 
 function Profile(){
     return(
-        <div className="content-container">
-            <div id='profile' className="profile-container">
-                <ProfileCard />
-            </div>
+        <div id='profile' className="profile-container">
+            <ProfileCard />
         </div>
     )
 }

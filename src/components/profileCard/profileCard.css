@@ -126,6 +126,7 @@ box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 @media(max-width: 1375px) {
     .sinopse-container {
         width: 80%;
+        margin-top: 20px;
     }
 }
 
@@ -153,8 +154,7 @@ box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
     }
     
     .sinopse-container {
-        width: 50%;
-        margin-top: 10px;
+        width: 70%;
         font-size: 15px;
     }
 }
@@ -200,7 +200,6 @@ box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 @media(max-width: 328px) {
-    
     .profile-card {
         height: 70%;
         overflow-y: auto;

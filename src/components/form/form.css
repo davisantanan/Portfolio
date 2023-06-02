@@ -11,12 +11,14 @@
 .form-header {
     display: flex;
     justify-content: center;
+    margin: 20px 0 25px 0;
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 40px;
+    margin: 0;
 }
 
 form {
@@ -169,8 +171,3 @@ textarea::placeholder {
     }
 }
 
-@media(max-width: 400px) {
-    .form-content {
-        height: 85%;
-    }
-}

@@ -11,32 +11,37 @@ function ProfileCard(){
         <>
             <div className="profile-content">
                     <div className="profile-card">
-                        <img className="profile-image" alt='' src={avatar} />
+                        <img className="profile-image" alt='avatar' src={avatar} />
                         <span className="name-text">Davi Santana</span>
                         <span className="profile-text">
                             Viver é melhor que sonhar.
                             Pronto para contribuir para o mercado de desenvolvimento ao seu lado!
                         </span>
                         <div className='social-container'>
-                            <a href='https://www.linkedin.com/in/davi-santana-3869251ab/' 
-                            target='_blank' rel='noreferrer'>
+                            <a 
+                            href='https://www.linkedin.com/in/davi-santana-3869251ab/' 
+                            target='_blank' 
+                            rel='noreferrer'>
                                 <div className='button-container button-container-hover'>
                                     <span className='text-button'>Linkedin</span>
-                                    <img className='icon-button' alt='' src={LinkedinIcon} />
+                                    <img className='icon-button' alt='link-icon' src={LinkedinIcon} />
                                 </div>
                             </a>
-                            <a href='https://github.com/davisantanan' target='_blank' rel='noreferrer'>
+                            <a 
+                            href='https://github.com/davisantanan' 
+                            target='_blank' 
+                            rel='noreferrer'>
                                 <div className='button-container button-container-hover'>
                                     <span className='text-button'>Github</span>
-                                    <img className='icon-button' alt='' src={GitHubIcon} />
+                                    <img className='icon-button' alt='git-icon' src={GitHubIcon} />
                                 </div>
                             </a>
                         </div>
                         <div className="divider"></div>
                         <div className="icons-container">
-                            <img className="icon-item" alt='' src={Js} />
-                            <img className="icon-item" alt='' src={Typescript} />
-                            <img className="icon-item" alt='' src={React} />
+                            <img className="icon-item" alt='js-icon' src={Js} />
+                            <img className="icon-item" alt='type-icon' src={Typescript} />
+                            <img className="icon-item" alt='react-icon' src={React} />
                         </div>
                     </div>
             </div>
