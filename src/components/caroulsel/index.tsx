@@ -1,22 +1,16 @@
 import './caroulsel.css';
 import { useEffect, useState } from 'react';
-import Calculator from '../../assets/Calculator.png'
-import CalculatorIMC from '../../assets/IMC.png'
-import HOTD from '../../assets/HOTD.png'
-import Market from '../../assets/Market.png'
-import Wakanda from '../../assets/wakanda.png'
-import Youtube from '../../assets/youtube.png'
-import GitHubIcon from '../../assets/github.png'
-import DeployIcon from '../../assets/deployment.png'
+import CalculatorIMC from '../../assets/IMC.png';
+import HOTD from '../../assets/HOTD.png';
+import Market from '../../assets/Market.png';
+import Wakanda from '../../assets/wakanda.png';
+import Youtube from '../../assets/youtube.png';
+import Personal from '../../assets/personal-mode.png'
+import GitHubIcon from '../../assets/github.png';
+import DeployIcon from '../../assets/deployment.png';
 
 
 const sliderImage = [
-    {
-        title: 'Calculadora',
-        image: Calculator,
-        icon: [GitHubIcon],
-        url: 'https://github.com/davisantanan/Calculator'
-    },
     {
         title: 'Calculadora IMC',
         image: CalculatorIMC,
@@ -47,6 +41,12 @@ const sliderImage = [
         icon: [GitHubIcon, DeployIcon],
         url: ['https://github.com/davisantanan/Clone-Youtube', 'https://clone-youtube-pearl.vercel.app/']
     },
+    {
+        title: 'Personal-Mode',
+        image: Personal,
+        icon: [GitHubIcon, DeployIcon],
+        url: ['https://github.com/davisantanan/Personal-Mode', 'https://personal-mode.vercel.app/']
+    }
 ]
 
 function Caroulsel(){

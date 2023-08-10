@@ -30,7 +30,7 @@ function Home () {
                     </ul>
                 </nav>
             </header>
-            <h1>Procurando um desenvolvedor Front-End?</h1>
+            <h1>Procurando um desenvolvedor Full-Stack?</h1>
             <Arrows />
         </div>
     )
